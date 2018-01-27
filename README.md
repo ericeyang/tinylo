@@ -1,0 +1,2 @@
+# tinylo
+Tiny lodash library
