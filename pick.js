@@ -6,11 +6,22 @@
  * @param {Array} paths The property paths to pick
  * @returns {Object} Returns the new object
  * @example
- *
+ * 
+ *```js
  * const obj = { a: 1, b: 2, c: 3 }
- * const newObj = pick(obj, [a, c])
+ * const newObj = pick(obj, ['a', 'c'])
  *
  * // { a: 1, c: 3 }
+ * ```
+ * 
+ * @todo
+ * 
+ *```js
+ * const obj = { a: { b: 2, c: 3 }}
+ * const newObj = pick(obj, ['a.c'])
+ *
+ * // { a: { c: 3 }}
+ * ```
  */
 function pick (obj, paths) {
   if (obj === null) {
