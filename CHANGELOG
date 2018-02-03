@@ -1,5 +1,6 @@
 # Change log
 
-## v1.0.0
+## v0.1.0
 
 - feat: Add pick function.
+- feat: Add uniq function.

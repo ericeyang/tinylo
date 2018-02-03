@@ -14,3 +14,14 @@ const newObj = pick(obj, ['a', 'c'])
 
 // { a: 1, c: 3 }
 ```
+
+### uniq
+
+Creates a duplicate-free version of an array.
+
+```js
+const arr = [1, 2, 2, 4, 5, 4, 3]
+const uniqArr = uniq(arr)
+
+// [1, 2, 4, 5, 3]
+```
