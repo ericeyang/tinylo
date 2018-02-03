@@ -1,0 +1,14 @@
+{
+  "name": "example",
+  "version": "0.1.0",
+  "description": "The examples of tinylo",
+  "main": "index.js",
+  "author": "Erice yang <ericeyany@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.5.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
