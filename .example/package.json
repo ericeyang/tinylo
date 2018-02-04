@@ -1,6 +1,6 @@
 {
   "name": "example",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "The examples of tinylo",
   "main": "index.js",
   "author": "Erice yang <ericeyany@gmail.com>",
