@@ -23,7 +23,7 @@ Creates an object composed of the picked object properties.
 const obj = { a: 1, b: 2, c: 3 }
 const newObj = pick(obj, ['a', 'c'])
 
-// { a: 1, c: 3 }
+// { a: 1, c: 3 
 ```
 
 ### uniq
