@@ -1,5 +1,9 @@
 # Change log
 
+## v0.1.1
+
+- feat: Add isPrimitive function.
+
 ## v0.1.0
 
 - feat: Add pick function.

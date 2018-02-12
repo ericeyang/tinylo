@@ -4,6 +4,17 @@ Tiny lodash library
 
 ## Usage
 
+### isPrimitive
+
+Checks if value is primitive.
+
+```js
+const arr = [1, 2, 2, 4, 5, 4, 3]
+console.log(isPrimitive(arr))
+
+// false
+```
+
 ### pick
 
 Creates an object composed of the picked object properties.
